@@ -180,15 +180,22 @@ hr{
     width: 100%;
     border-radius: 10px ;
 }
-
+.discription{
+    width: 78%;
+    height: 100%;
+    
+}
 .discription_box{
     display: flex;
     gap: 10px;
+
 }
 .discription_box a{
     font-size: 12px;
     font-weight: bold;
     color: black;
+    text-decoration: none;
+    
 }
 
 .Image_profiles {
@@ -198,6 +205,9 @@ hr{
     border-radius: 50%;
     display: flex;
     justify-content: center;
+}
+.Image_profiles img{
+    border-radius: 50%;
 }
 
 
